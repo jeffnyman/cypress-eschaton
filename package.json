@@ -1,0 +1,31 @@
+{
+  "name": "cypress-eschaton",
+  "version": "1.0.0",
+  "description": "Cypress Learning Project",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "pretty:check": "prettier --check .",
+    "pretty:fix": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffnyman/cypress-eschaton.git"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "cypress"
+  ],
+  "author": "Jeff Nyman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffnyman/cypress-eschaton/issues"
+  },
+  "homepage": "https://github.com/jeffnyman/cypress-eschaton#readme",
+  "devDependencies": {
+    "cypress": "^6.8.0",
+    "prettier": "2.2.1"
+  }
+}
